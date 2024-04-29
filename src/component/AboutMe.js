@@ -3,7 +3,7 @@ import { profile_img } from "../utils/urls";
 const AboutMe = () => {
   return (
     <div>
-      <div className="text-white text-5xl text-center font-bold m-10 mt-24">
+      <div className="text-white text-5xl text-center font-bold m-12 mt-24">
         About Me
         <div className="w-60 mt-4 rounded-2xl bg-pink-600 h-3 flex justify-center m-auto"></div>
       </div>
