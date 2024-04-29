@@ -18,7 +18,7 @@ const Body = () => {
           Connect with me
         </div>
         <div className="text-white p-3  border-2 w-30 h-13 border-white rounded-3xl hover:border-purple-700  cursor: pointer">
-          My resume
+          Resume
         </div>
       </div>
     </div>
