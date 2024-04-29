@@ -1,9 +1,13 @@
 import React from 'react'
-
+import Header from './component/Header'
+import Body from './component/Body'
+import AboutMe from './component/AboutMe'
 const App = () => {
   return (
     <div>
-      <h1>My name is Debasish Rana</h1>
+     <Header />
+     <Body />
+     <AboutMe />
     </div>
   )
 }
