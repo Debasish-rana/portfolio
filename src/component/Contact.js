@@ -35,7 +35,7 @@ const Contact = () => {
         Get in touch
       </h1>
       <div className="w-60 mt-4 rounded-2xl bg-pink-600 h-3 flex justify-center m-auto mb-12"></div>
-      <div className="flex mx-36 contact">
+      <div className="flex mx-40 justify-center contact ">
         <div className=" m-4 ">
           <h1 className="font-bold text-5xl from-purple-800 via-pink-500 to-yellow-500 bg-gradient-to-r bg-clip-text text-transparent m-4">
             Let's talk
