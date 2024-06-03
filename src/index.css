@@ -12,3 +12,16 @@ body {
   background-color: black;
 }
 
+.skill:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width: 950px) {
+  
+  .contact {
+    margin: 0;
+  }
+}
