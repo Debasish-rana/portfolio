@@ -8,11 +8,11 @@ const myServices = () => {
         My Services
       </h1>
       <div className="w-60 rounded-2xl bg-pink-600 h-3 flex justify-center m-auto"></div>
-      <div className="text-white flex flex-row justify-center  m-8 ">
+      <div className="text-white flex flex-row justify-center m-8 max-[800px]:m-3">
         {myWork_data.map((work, index) => {
           return (
             <div
-              className="mx-14 my-6 p-6 w-48 h-24 border-2 border-white bg-black transition-transform duration-500 hover:scale-125 hover:border-red-600 hover:bg-gradient-to-r from-purple-800  via-pink-500 to-yellow-400 rounded-lg items-center"
+              className="mx-14 my-6 p-6 w-48 h-24 border-2 border-white bg-black transition-transform duration-500 hover:scale-125 hover:border-red-600 hover:bg-gradient-to-r from-purple-800  via-pink-500 to-yellow-400 rounded-lg items-center "
               key={index}
             >
               {work.w_name}

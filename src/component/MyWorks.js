@@ -8,9 +8,9 @@ const MyWorks = () => {
         My Works
       </h1>
       <div className="w-60 mt-4 rounded-2xl bg-pink-600 h-3 flex justify-center m-auto mb-12"></div>
-      <div className=" flex justify-center items-center gap-6 m-auto   ">
+      <div className=" flex justify-center items-center gap-6 m-auto max-[800px]:gap-2">
         {myWork_data.map((work, index) => {
-          return <img className="w-96 hover:border-4 border-red-400 p-4 rounded-xl transition-transform duration-500 hover:scale-125 max-[1300px]:w-60" key={index} src={work.w_img} alt="" />;
+          return <img className="w-96 hover:border-4 border-red-400 p-4 rounded-xl transition-transform duration-500 hover:scale-125 max-[1300px]:w-60 max-[800px]:w-48 " key={index} src={work.w_img} alt="" />;
         })}
       </div>
     </div>

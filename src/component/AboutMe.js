@@ -10,7 +10,7 @@ const AboutMe = () => {
       <div className="flex justify-center">
         <div>
           <img
-            className="w-60 h-72 mr-14 max-[1300px]:w-32 max-[1300px]:h-40 flex justify-center m-3  "
+            className="w-60 h-72 mr-14 max-[1300px]:w-32 max-[1300px]:h-40 flex justify-center m-3 max-[800px]:hidden"
             src={profile_img}
             alt=""
           />
