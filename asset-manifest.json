@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.65b1c5b9.css",
-    "main.js": "/portfolio/static/js/main.682e206d.js",
+    "main.css": "/portfolio/static/css/main.8d7db72c.css",
+    "main.js": "/portfolio/static/js/main.c80264dc.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/foddOdaring.png": "/portfolio/static/media/foddOdaring.82d6da42d746e60a37d8.png",
     "static/media/restroweb.png": "/portfolio/static/media/restroweb.b66d9603554b1d8010c9.png",
@@ -9,13 +9,14 @@
     "index.html": "/portfolio/index.html",
     "static/media/menu_close.svg": "/portfolio/static/media/menu_close.d7bcdac2acc8f22501cacb6bbabbb700.svg",
     "static/media/nav_underline.svg": "/portfolio/static/media/nav_underline.c56cde277213bbba5816c05ee4d24f73.svg",
+    "static/media/theme_pattern.svg": "/portfolio/static/media/theme_pattern.92278b3dbc4b903482e1d44b040aa98f.svg",
     "static/media/menu_open.svg": "/portfolio/static/media/menu_open.f6a63a18e3c68d807e50b1037f3e3555.svg",
-    "main.65b1c5b9.css.map": "/portfolio/static/css/main.65b1c5b9.css.map",
-    "main.682e206d.js.map": "/portfolio/static/js/main.682e206d.js.map",
+    "main.8d7db72c.css.map": "/portfolio/static/css/main.8d7db72c.css.map",
+    "main.c80264dc.js.map": "/portfolio/static/js/main.c80264dc.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65b1c5b9.css",
-    "static/js/main.682e206d.js"
+    "static/css/main.8d7db72c.css",
+    "static/js/main.c80264dc.js"
   ]
 }
