@@ -30,7 +30,7 @@ const Contact = () => {
   };
 
   return (
-    <div>
+    <div id="contact">
       <h1 className="text-slate-50 font-bold text-3xl  flex justify-center">
         Get in touch
       </h1>
@@ -61,10 +61,7 @@ const Contact = () => {
           </div>
         </div>
         <div>
-          <form
-            onSubmit={onSubmit}
-            className="flex flex-col items-start  m-4"
-          >
+          <form onSubmit={onSubmit} className="flex flex-col items-start  m-4">
             <label htmlFor="" className="text-white mb-4">
               Your Name
             </label>

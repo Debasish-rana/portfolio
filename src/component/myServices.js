@@ -3,7 +3,7 @@ import myWork_data from "../asset/myWork_data";
 
 const myServices = () => {
   return (
-    <div>
+    <div id="service">
       <h1 className="text-white font-bold text-4xl text-center mb-4">
         My Services
       </h1>

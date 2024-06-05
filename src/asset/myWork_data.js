@@ -12,7 +12,7 @@ const myWork_data = [
   ,
   {
     w_no: 2,
-    w_name: "Web devolopment",
+    w_name: "Frontend Web devolopment",
     w_img: foddOdaring,
   },
   {

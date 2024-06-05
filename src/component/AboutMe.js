@@ -2,7 +2,7 @@ import React from "react";
 import { profile_img } from "../utils/urls";
 const AboutMe = () => {
   return (
-    <div>
+    <div id="about">
       <div className="text-white text-5xl text-center font-bold m-12 mt-24">
         About Me
         <div className="w-60 mt-4 rounded-2xl bg-pink-600 h-3 flex justify-center m-auto"></div>
@@ -56,7 +56,9 @@ const AboutMe = () => {
           <h1 className="font-bold text-5xl from-purple-600 via-pink-600 to-yellow-500 bg-gradient-to-r bg-clip-text text-transparent">
             6+
           </h1>
-          <p className="text-white bg-clip-text font-bold">MONTHS OF EXPERIENCE </p>
+          <p className="text-white bg-clip-text font-bold">
+            MONTHS OF EXPERIENCE{" "}
+          </p>
         </div>
         <hr />
         <div className="flex flex-col  items-center gap-3">
