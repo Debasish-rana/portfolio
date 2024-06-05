@@ -25,19 +25,26 @@ const AboutMe = () => {
             with them, contributing to their sucees and growth.
           </p>
           <div>
-            <div className="mt-14 flex flex-col gap-5 m-3 max-[1300px]:block">
+            <div className="mt-14 flex flex-col gap-5 m-3 max-[1300px]:block max-[768px]:m-3">
               <div className="flex gap-10 items-center ">
-                <p className="text-white text-xl">HTML & CSS & TAILWIND CSS</p>
+                <p className="text-white text-xl">HTML & CSS</p>
                 <hr
                   className="w-1/2 h-1.5 bg-gradient-to-r from-purple-800  via-pink-500 to-yellow-400 rounded-full"
-                  style={{ width: "65%" }}
+                  style={{ width: "70%" }}
+                />
+              </div>
+              <div className="flex gap-10 items-center ">
+                <p className="text-white text-xl"> TAILWIND CSS</p>
+                <hr
+                  className="w-1/2 h-1.5 bg-gradient-to-r from-purple-800  via-pink-500 to-yellow-400 rounded-full"
+                  style={{ width: "50%" }}
                 />
               </div>
               <div className="flex gap-10 items-center">
                 <p className="text-white text-xl">React Js</p>
                 <hr
                   className="w-1/2 h-1.5 bg-gradient-to-r from-purple-800  via-pink-500 to-yellow-400 rounded-full"
-                  style={{ width: "70%" }}
+                  style={{ width: "50%" }}
                 />
               </div>
               <div className="flex gap-10 items-center">
