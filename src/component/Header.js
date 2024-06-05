@@ -16,7 +16,7 @@ const closeNavbar =()=>{
   return (
     <div className="flex justify-around bg-black text-white p-5 shadow-2xl rounded-b-md max-sm:p-4 sticky top-0 max-[768px]:">
       <div className="font-serif font-bold text-2xl max-[800px]:text-lg ">
-        Debasish
+        Debasish Rana
       </div>
 
       <div>
