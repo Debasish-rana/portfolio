@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import theme_pattern from "../asset/images/theme_pattern.svg";
 
 const Contact = () => {
   //const [result, setResult] = React.useState("");
@@ -31,10 +32,10 @@ const Contact = () => {
 
   return (
     <div id="contact">
-      <h1 className="text-slate-50 font-bold text-3xl  flex justify-center">
+      <h1 className="text-slate-50 font-bold text-3xl  flex justify-center relative top-10">
         Get in touch
       </h1>
-      <div className="w-60 mt-4 rounded-2xl bg-pink-600 h-3 flex justify-center m-auto mb-12"></div>
+     <img src={theme_pattern} alt="" className="m-auto "/>
       <div className="flex mx-40 justify-center max-[700px]:block max-[700px]:items-center max-[768px]:m-20px max-[768px]:block  contact">
         <div className=" m-4 ">
           <h1 className="font-bold text-5xl from-purple-800 via-pink-500 to-yellow-500 bg-gradient-to-r bg-clip-text text-transparent m-4">

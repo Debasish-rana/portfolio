@@ -1,12 +1,13 @@
 import React from "react";
 import { profile_img } from "../utils/urls";
+import theme_pattern from "../asset/images/theme_pattern.svg";
 const AboutMe = () => {
   return (
     <div id="about">
-      <div className="text-white text-5xl text-center font-bold m-12 mt-24">
+      <div className="text-white text-5xl text-center font-bold m-12 mt-24 relative top-[85px]">
         About Me
-        <div className="w-60 mt-4 rounded-2xl bg-pink-600 h-3 flex justify-center m-auto"></div>
       </div>
+      <img src={theme_pattern} alt="" className="m-auto mb-28" />
       <div className="flex justify-center">
         <div>
           <img
