@@ -9,13 +9,14 @@ const Body = () => {
           src={profile_img}
           alt=""
         />
-        <h1 className="text-5xl p-4 text-center text-white font-bold max-[800px]:text-3xl">
-          <span className="font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent ">
+         <span className="font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent text-4xl max-[768px]:text-2xl max-[410px]:text-lg ">
             I'm Debasish Rana,
           </span>
+        <h1 className="text-5xl p-4 text-center text-white font-bold max-[800px]:text-3xl max-[600px]:text-xl">
+         
           frontend developer based in INDIA
         </h1>
-        <p className="text-white text-xl">
+        <p className="text-white text-xl max-[600px]:text-lg">
           I am a frontend devoloper from Kolkata.
         </p>
       </div>

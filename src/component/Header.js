@@ -21,7 +21,7 @@ const closeNavbar =()=>{
 
       <div>
       <img src={menu_open} alt="" onClick={showNavbar}  className="max-[768px]:block max-[768px]:fixed max-[768px]:right-8 hidden"/>
-        <ul ref={menuRef} className="flex justify-around gap-12 max-[800px]:gap-4 max-[768px]:fixed max-[768px]:flex-col max-[768px]:items-start max-[768px]:top-0 max-[768px]:gap-8 max-[768px]:bg-cyan-700 max-[768px]:w-80 max-[768px]:h-[500px] max-[768px]:z-10  max-[768px]:right-[-350px] navbar">
+        <ul ref={menuRef} className="flex justify-around gap-12 max-[800px]:gap-4 max-[768px]:fixed max-[768px]:flex-col max-[768px]:items-start max-[768px]:top-0 max-[768px]:gap-8 max-[768px]:bg-cyan-700 max-[768px]:w-80 max-[768px]:h-[500px] max-[768px]:z-10  max-[768px]:right-[-350px] max-[768px]:p-4 navbar">
         <img  src={menu_close} onClick={closeNavbar} alt="" className="hidden max-[768px]:block max-[768px]:relative max-[768px]:top-8 max-[768px]:left-64 max-[768px]:w-8" />
           <li className="max-sm:text-3xl cursor-pointer max-[768px]:text-xl max-[768px]:pl-8 max-[768px]:flex-row max-[768px]:gap-5">
             <a href="#home">
