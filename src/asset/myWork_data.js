@@ -1,7 +1,9 @@
 //import musicPlayer from "../asset/images/musicPlayer.png"
-import foddOdaring from "../asset/images/foddOdaring.png"
+import foddOdaring from "../asset/images/Foododaring.png"
 import spotify from "../asset/images/spotify.png"
 import restroweb from "../asset/images/restroweb.png"
+import Netflix from "../asset/images/Netflix.png"
+import youtube from "./images/Youtube.png"
 
 const myWork_data = [
   {
@@ -20,7 +22,13 @@ const myWork_data = [
   {
     w_no: 3,
     w_name: "Ms Excel Sheet",
-    w_img:spotify
+    w_img:Netflix,
+    w_link:"https://debasish-rana.github.io/netflix-web/"
+  },
+  {
+    w_no: 3,
+    w_img:youtube,
+    w_link:"https://debasish-rana.github.io/youtube-clone/"
   },
   
 ];
