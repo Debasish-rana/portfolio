@@ -31,12 +31,7 @@ const myWork_data = [
     w_img:youtube,
     w_link:"https://debasish-rana.github.io/youtube-clone/"
   },
-  {
-    w_no: 4,
-    w_name:"Microsoft office word",
-    w_img:youtube,
-    w_link:"https://debasish-rana.github.io/youtube-clone/"
-  },
+  
   {
     w_no: 5,
     w_name:"Microsoft Power Point",
