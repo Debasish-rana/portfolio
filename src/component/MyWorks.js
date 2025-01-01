@@ -24,7 +24,6 @@ const MyWorks = () => {
           );
         })}
       </div>
-      {console.log(myWork_data)}
     </div>
   );
 };
